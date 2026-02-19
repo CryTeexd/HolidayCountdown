@@ -63,10 +63,7 @@ button:hover {
 }
 
 .panel {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .holiday-name {
