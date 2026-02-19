@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  display: flex;
+  margin: 20px 20px;
+  justify-content: center;
+}
+
+.app {
+    text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.country-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.country-btn{
+    padding: 10px 20px;
+    border: 2px solid #a4a4a4a6;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4d4d4d;
+}
+
+.countrydown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.country-btn.active {
+  border-color: #a9a9a9;
+  background: #a9a9a9;
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.panel {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.holiday-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.holiday-date {
+  color: #555;
+  font-size: 15px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.time-box {
+  border-radius: 12px;
+  padding: 15px 20px;
+  min-width: 100px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.num {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 15px;
+  color: #666;
+  margin-top: 4px;
+}
